@@ -32,7 +32,6 @@ export default function Menu({logo, isListening, setIsListening}){
       <nav>
         <ul>
           <Commands commands={commands} setCommands={setCommands} />
-          {window.annyang.isListening() ? <li className="listening"><span>Listening</span> <img src={'/listening.gif'} width="24px" height="24px" alt="Listening"/></li> : null}
 
         </ul>
       </nav>
