@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/voice-image/static/css/main.27baa720.chunk.css",
-    "main.js": "/voice-image/static/js/main.aa97c645.chunk.js",
-    "main.js.map": "/voice-image/static/js/main.aa97c645.chunk.js.map",
+    "main.js": "/voice-image/static/js/main.53be6716.chunk.js",
+    "main.js.map": "/voice-image/static/js/main.53be6716.chunk.js.map",
     "runtime-main.js": "/voice-image/static/js/runtime-main.9d9e35bb.js",
     "runtime-main.js.map": "/voice-image/static/js/runtime-main.9d9e35bb.js.map",
     "static/js/2.111ba7cc.chunk.js": "/voice-image/static/js/2.111ba7cc.chunk.js",
     "static/js/2.111ba7cc.chunk.js.map": "/voice-image/static/js/2.111ba7cc.chunk.js.map",
     "index.html": "/voice-image/index.html",
-    "precache-manifest.97f9ee4779450b9cf8aa728ef295d422.js": "/voice-image/precache-manifest.97f9ee4779450b9cf8aa728ef295d422.js",
+    "precache-manifest.fa268433b1aa216836cac760d2a8f70c.js": "/voice-image/precache-manifest.fa268433b1aa216836cac760d2a8f70c.js",
     "service-worker.js": "/voice-image/service-worker.js",
     "static/css/main.27baa720.chunk.css.map": "/voice-image/static/css/main.27baa720.chunk.css.map",
     "static/js/2.111ba7cc.chunk.js.LICENSE.txt": "/voice-image/static/js/2.111ba7cc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9d9e35bb.js",
     "static/js/2.111ba7cc.chunk.js",
     "static/css/main.27baa720.chunk.css",
-    "static/js/main.aa97c645.chunk.js"
+    "static/js/main.53be6716.chunk.js"
   ]
 }
