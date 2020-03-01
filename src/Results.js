@@ -16,7 +16,7 @@ export default function Results({images, url, setImages}){
     voice.addCommands(commands);
 
     function goBack(){
-        history.push('/');
+        history.push('/voice-image/');
     }
     useEffect(() => {
         async function fetchImages(){

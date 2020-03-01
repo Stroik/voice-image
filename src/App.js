@@ -23,8 +23,8 @@ function App() {
       <div className="container">
         <Menu logo={'VoiceImage'} />
         <Switch>
-          <Route path="/photos/:tag/:page" children={<Results images={images} url={url} setImages={setImages}/>} />
-          <Route path="/" children={<Search addImages={ setImages } url={url} setUrl={setUrl} />} />
+          <Route path="/voice-image/photos/:tag/:page" children={<Results images={images} url={url} setImages={setImages}/>} />
+          <Route path="/voice-image/" children={<Search addImages={ setImages } url={url} setUrl={setUrl} />} />
         </Switch>
       </div>
     </Router>

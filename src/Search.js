@@ -31,7 +31,7 @@ export default function Search({addImages, url, setUrl}){
         const requestUrl = `${url}${tag}&page=${page}`;
         const results = await Axios(requestUrl, { headers });
         addImages(results.data.results);
-        history.push(`/photos/${tag}/${page}`);
+        history.push(`/voice-image/photos/${tag}/${page}`);
     }
 
     async function prev(){
@@ -39,7 +39,7 @@ export default function Search({addImages, url, setUrl}){
         const requestUrl = `${url}${tag}&page=${page}`;
         const results = await Axios(requestUrl, { headers });
         addImages(results.data.results);
-        history.push(`/photos/${tag}/${page}`);
+        history.push(`/voice-image/photos/${tag}/${page}`);
     }
 
     function searchImage() {

@@ -27,7 +27,7 @@ export default function Menu({logo, isListening, setIsListening}){
   return (
     <div className="menu">
       <div className="logo">
-        <Link to={'/'}>{logo}</Link>
+        <Link to={'/voice-image/'}>{logo}</Link>
       </div>
       <nav>
         <ul>
