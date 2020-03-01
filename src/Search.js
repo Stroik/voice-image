@@ -23,7 +23,7 @@ export default function Search({addImages, url, setUrl}){
         tag = keyword;
         setUrl(requestUrl);
         addImages(results.data.results);
-        history.push(`/photos/${tag}/${page}`);
+        history.push(`/voice-image/photos/${tag}/${page}`);
     }
 
     async function next(){
